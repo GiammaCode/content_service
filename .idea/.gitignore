@@ -6,3 +6,83 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# File di compilazione di IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Cartelle di compilazione Maven/Gradle
+target/
+out/
+build/
+
+# Log file
+*.log
+
+# File di configurazione del sistema operativo
+.DS_Store
+Thumbs.db
+
+# File di configurazione per build tool
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+
+# File generati da Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Cache ed elementi del sistema operativo
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.zip
+
+# Cache IDE specifiche
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/.name
+
+# File per JVM
+hs_err_pid*
+
+# Escludi i file di configurazione di IntelliJ IDEA che non vuoi nel repository
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+
+# Cartella cache specifica di IntelliJ IDEA
+.idea/
+
+# Plugin specifici di IntelliJ IDEA
+.idea/libraries/
+
+# Configurazioni di deployment (facoltativo)
+.idea/deployment.xml
+.idea/artifacts/
+
+# File di IntelliJ IDEA specifici di Java
+*.iws
+*.iml
+*.ipr
+
+# Eclissi (opzionale, se lavori anche su Eclipse)
+.project
+.classpath
+.settings/
+
+# Librerie locali e dipendenze (JAR locali)
+lib/
+
+#
