@@ -44,3 +44,6 @@ By using the [OpenAPI-Spec](https://github.com/swagger-api/swagger-core), you ca
 You can view the api documentation in swagger-ui by pointing to  
 http://localhost:8080/
 Change default port value in application.properties
+
+reminder docker command: 
+- docker run -d -p 27017:27017 --name mongodbContent mongo
